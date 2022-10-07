@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    margin: 26px auto 0 auto;
+    width: 1000px;
+    height: 1000px;
+    outline: 1px solid rgb(247, 113, 135);
+    
+}
+
+.mheader{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    outline: 1px solid rgb(247, 113, 135);
+    width: 1000px;
+    height: 120px;
+    background-color: cornflowerblue;
+}
+
+.mheader-logo-search-login{
+    display: grid;
+    grid-template-columns: 180px 3fr 1fr;
+    height: 220px;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: start;
+}
+
+.logo{
+    width: 177px;
+    height: auto;
+    position: absolute;
+}
+
+.msearch{
+    display: flex;
+    align-items: end;
+    background-color: aquamarine;
+}
+
+.mbutton-search{
+    background-color: #FF8854;
+}
+
+.mlogin{
+    display: flex;
+    justify-content: end;
+    outline: 1px solid rgb(247, 113, 135);
+}
+
+.div-signinlogin{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    outline: 1px solid rgb(247, 113, 135);
+    background-color: #F0682B;
+}
+
+.signin,.login{
+    outline: 1px solid rgb(247, 113, 135);
+    color: white;
+    font-size: 11px;;
+}
+
+.mlogin p{
+    display: inline-flex;
+    color: white;
+}
+
+nav{
+    background-color: cadetblue;
+    padding: 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.menu{
+    display: flex;
+    gap: 8px;
+    font-family: 'Montserrat';
+}
+
+/*.div-signinlogin input{
+    color: red;
+}*/
